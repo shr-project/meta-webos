@@ -5,6 +5,8 @@ PREFERRED_VERSION_db ?= "4.8.30"
 # Stick to latest udev version provided by oe-core
 PREFERRED_VERSION_udev ?= "164"
 
+PREFERRED_VERSION_linux-yocto ?= "3.4%"
+
 # Newer upstream meta-oe already has 2.0.3 version which isn't compatible with our libpbnjson yet
 # https://github.com/openwebos/libpbnjson/pull/2
 PREFERRED_VERSION_yajl ?= "1.0.12"
